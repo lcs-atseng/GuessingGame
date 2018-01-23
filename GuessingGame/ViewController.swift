@@ -54,7 +54,7 @@ class ViewController: UIViewController {
         print(game.numberToGuess)
         
         // check the guess
-        labelMessage.text = game.compareGuessToNumber(guessMade: integerGiven)
+        labelsMessages.text = game.compareGuessToNumber(guessMade: guessProvided)
         
     }
     //MARK: Custom functions
